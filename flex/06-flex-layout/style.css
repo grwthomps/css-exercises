@@ -5,6 +5,31 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header, 
+.footer {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.profile, 
+.privacy {
+  margin-left: auto;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 img {
@@ -16,6 +41,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
